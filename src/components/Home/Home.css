@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    background: url('../../Images/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg') center/cover no-repeat;
+  }
+  
+  .ribbon {
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+    background-color: #333333;
+    padding-top: 90px;
+    text-align: center;
+    height:1910px;
+    width: 70%;
+  }
+  h1 {
+    color: #ffa500; 
+  }
+  
+  p {
+    color: #ffffff; 
+  }
+

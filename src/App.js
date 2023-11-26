@@ -3,8 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
 
-const Home = () => <div>Home Page</div>;
 const About = () => <div>About Page</div>;
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" exact component={Home}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/" exact component={About}/>
         {/*!!!!! ADD MORE ROUTES HERE !!!!!*/}
       </Routes>
