@@ -4,13 +4,11 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div className="container">
-            <div className="left-background"></div>
-            <div className="ribbon">
+        <div className="home-container">
+            <div className="home-ribbon">
                 <h1>WELCOME TO THE APP</h1>
                 <p>Promotional text........</p>
             </div>
-            <div className="right-background"></div>
         </div>
     )
 };

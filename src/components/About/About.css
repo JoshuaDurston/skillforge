@@ -1,11 +1,11 @@
-.home-container {
+.about-container {
     position: relative;
     width: 100%;
     height: 2000px;
     background: url('../../Images/samuel-ferrara-dKJXkKCF2D8-unsplash.jpg') center/cover no-repeat;
-}
+  }
   
-.home-ribbon {
+.about-ribbon {
     position: absolute;
     left: 50%;
     transform: translate( -50%);
@@ -15,11 +15,3 @@
     height:1910px;
     width: 70%;
 }
-h1 {
-    color: #ffa500; 
-}
-  
-p {
-    color: #ffffff; 
-}
-
