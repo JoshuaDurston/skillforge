@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 //const About = () => <div>About Page</div>;   <-- sample temp const route 
 
@@ -18,6 +19,7 @@ const App = () => {
         {/*<Route path="/" exact component={About}/>   <-- Used for temp const routes*/}
         <Route path="/about" element={<About/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Register/>}/>
         {/*!!!!! ADD MORE ROUTES HERE !!!!!*/}
       </Routes>
       <Footer/>
