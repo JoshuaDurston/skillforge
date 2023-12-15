@@ -46,8 +46,12 @@ const Login = () => {
                         onChange={handleChange}
                         required
                     />
-
-                    <button type="submit">Login</button>
+                    <div className="login-button-wrapper">
+                        <button type="submit">Login</button>
+                        <Link to="/register">
+                            <button type="submit">Register</button>
+                        </Link>
+                    </div>
                 </form>
             </div>
         </div>

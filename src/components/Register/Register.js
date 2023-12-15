@@ -32,7 +32,7 @@ const Register = () => {
     return (
         <div className="register-container">
             <div className="register-wrapper">
-                <h1 className="register-heading">Welcome Back!</h1>
+                <h1 className="register-heading">Register Your Skill Forge Account</h1>
                 <form onSubmit={logUser} className="register-form">
                     <label>Email or Username:</label>
                     <input
